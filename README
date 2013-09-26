@@ -1,0 +1,6 @@
+Initial split of BioPerl's venerable Bio::SeqIO::staden::read into
+it's own repo.  Will likely be refactored so that:
+
+1) more lightweight (not reliant on any core code, just XS)
+2) update for modern io_lib releases
+3) add potential BAM/CRAM support when possible
